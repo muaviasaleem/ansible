@@ -7,10 +7,10 @@
 </head>
 <body>
     <header>
-        <h1>{{ header_title }}</h1>
+        <h1>{{ alnafi }}</h1>
     </header>
     <main>
-        <p>{{ main_content }}</p>
+        <p>{{ learning }}</p>
     </main>
     <footer>
         <p>© {{ year }} Your Company. All rights reserved.</p>
