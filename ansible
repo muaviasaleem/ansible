@@ -1,9 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page_title }}</title>
+</head>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+    <header>
+        <h1>{{ header_title }}</h1>
+    </header>
+    <main>
+        <p>{{ main_content }}</p>
+    </main>
+    <footer>
+        <p>© {{ year }} Your Company. All rights reserved.</p>
+    </footer>
 </body>
 </html>
